@@ -2,11 +2,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1e1e1e;
+  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: sans-serif;
 }
 
 #buttons {
@@ -24,7 +24,7 @@ body {
   border-radius: 50px;
   cursor: pointer;
   color: white;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 
 .btn {
